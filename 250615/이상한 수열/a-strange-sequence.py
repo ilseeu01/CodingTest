@@ -1,7 +1,4 @@
 n = int(input())
-arr = [0 for _ in range(n)]
-arr[0] = 1
-arr[1] = 2
 
 def solution(n):
     if n == 1:
