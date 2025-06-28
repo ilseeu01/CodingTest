@@ -1,6 +1,6 @@
 n = int(input())
-arr = list(map(str, input().split()))
+arr = [input() for _ in range(n)]  # 문자열 n줄 입력받아 리스트로 저장
+
 
 arr.sort()
-print(arr)
 print('\n'.join(arr))
